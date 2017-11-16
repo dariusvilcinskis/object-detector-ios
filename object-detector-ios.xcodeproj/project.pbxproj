@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		691188F51FBB40C000ACA51C /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 691188F41FBB40C000ACA51C /* Resnet50.mlmodel */; };
 		6929B7BF1FBB3AD50036F455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6929B7BE1FBB3AD50036F455 /* AppDelegate.swift */; };
 		6929B7C11FBB3AD50036F455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6929B7C01FBB3AD50036F455 /* ViewController.swift */; };
 		6929B7C41FBB3AD50036F455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6929B7C21FBB3AD50036F455 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		691188F41FBB40C000ACA51C /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../../Downloads/Resnet50.mlmodel; sourceTree = "<group>"; };
 		6929B7BB1FBB3AD50036F455 /* object-detector-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "object-detector-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6929B7BE1FBB3AD50036F455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6929B7C01FBB3AD50036F455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		6929B7BD1FBB3AD50036F455 /* object-detector-ios */ = {
 			isa = PBXGroup;
 			children = (
+				691188F41FBB40C000ACA51C /* Resnet50.mlmodel */,
 				6929B7BE1FBB3AD50036F455 /* AppDelegate.swift */,
 				6929B7C01FBB3AD50036F455 /* ViewController.swift */,
 				6929B7C21FBB3AD50036F455 /* Main.storyboard */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6929B7C11FBB3AD50036F455 /* ViewController.swift in Sources */,
+				691188F51FBB40C000ACA51C /* Resnet50.mlmodel in Sources */,
 				6929B7BF1FBB3AD50036F455 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5PNX43K4J;
 				INFOPLIST_FILE = "object-detector-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "darius.object-detector-ios";
@@ -368,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5PNX43K4J;
 				INFOPLIST_FILE = "object-detector-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "darius.object-detector-ios";
